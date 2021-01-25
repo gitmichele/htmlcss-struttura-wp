@@ -6,19 +6,19 @@
     border-radius: 10px;
 }
 
-
-#container{
+.container{
     width: calc(50% + 30vw) ;
     max-width: 1400px;
     margin: 20px auto;
 }
-
 
 .row::after{
     content: "";
     display: table;
     clear: both;
 }
+
+
 
 /* header */
 header{
@@ -30,9 +30,8 @@ header{
 
 
 /* jumbotron */
-#jumbotron{
-    margin: 20px 0;
-    width: 100%;
+.jumbotron{
+    margin: 20px auto;
     /* DEBUG:  */
     height: 400px;
     background-color: yellow;
@@ -71,7 +70,7 @@ header{
 /* footer */
 footer{
     width: 100%;
-    margin: 20px 0;
+    margin: 20px auto;
     /* DEBUG:  */
     height: 75px;
     background-color: blue;
