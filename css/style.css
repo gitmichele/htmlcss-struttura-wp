@@ -7,8 +7,8 @@
 }
 
 .container{
-    width: calc(50% + 30vw) ;
-    max-width: 1400px;
+    width: calc(50% + 20vw) ;
+    max-width: 1200px;
     margin: 20px auto;
 }
 
@@ -22,7 +22,6 @@
 
 /* header */
 header{
-    width: 100%;
     /* DEBUG:  */
     height: 100px;
     background-color: blue;
@@ -31,7 +30,6 @@ header{
 
 /* jumbotron */
 .jumbotron{
-    margin: 20px auto;
     /* DEBUG:  */
     height: 400px;
     background-color: yellow;
@@ -39,15 +37,16 @@ header{
 
 
 
-/* sezione principale - uso float */
-.top{
-    width: 100%;
-    margin: 20px 0;
+
+/* sezione principale - titolo */
+.title{
     /* DEBUG:  */
     height: 75px;
     background-color: red;
 }
 
+
+/* sezione principale - posiziono colonne con float */
 .aside{
     float: left;
     width: 25%;
@@ -69,8 +68,6 @@ header{
 
 /* footer */
 footer{
-    width: 100%;
-    margin: 20px auto;
     /* DEBUG:  */
     height: 75px;
     background-color: blue;
